@@ -46,6 +46,7 @@ class CardView: UIView {
     fileprivate let deselectedColor =  UIColor(white: 0, alpha: 0.1)
     @objc fileprivate func handleTap(gesture: UITapGestureRecognizer) {
         print("Tappeddddddd")
+        print("featured branch")
         let tapLocation = gesture.location(in: nil)
         let shouldAdvanceNextPhoto = tapLocation.x > frame.width / 2 ? true : false
         if shouldAdvanceNextPhoto {
