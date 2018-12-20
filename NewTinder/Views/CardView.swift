@@ -47,6 +47,7 @@ class CardView: UIView {
     @objc fileprivate func handleTap(gesture: UITapGestureRecognizer) {
         print("Tappeddddddd")
         print("featured branch")
+        print("Seconded feture")
         let tapLocation = gesture.location(in: nil)
         let shouldAdvanceNextPhoto = tapLocation.x > frame.width / 2 ? true : false
         if shouldAdvanceNextPhoto {
